@@ -40,9 +40,8 @@ body {
     font-size: 14px;
     font-weight: 500;
     font-size: 14px;
-    Line-height: 1.1;
-    letter-spacing: 2%;
-    text-transform: uppercase;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 
 .link {
@@ -93,6 +92,11 @@ body {
     border: none;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--background-color);
+}
+
 .hero-btn-text {
     color: var(--primary-title-color);
     font-weight: 700;
@@ -102,6 +106,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    font-family: inherit;
 }
 
 /* Наші особливості */
@@ -179,10 +184,23 @@ body {
     letter-spacing: 0.03em;
 }
 
+.team-list {
+    background-color: #FFFFFF;
+}
+
 /* Footer */
 
 .footer {
     background-color: var(--background-color)
+}
+ 
+.logo-second {
+    font-family: 'Raleway', sans-serif;
+        Font-style: Bold;
+        font-weight: 700;
+        Font-size: 26px;
+        Line-height: 1.2;
+        color: #FFFFFF
 }
 
 .address {
@@ -214,6 +232,7 @@ body {
 
 
 .button-text {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -241,4 +260,8 @@ body {
 .button:focus {
     background: var(--accent-color);
     color: var(--primary-title-color)
+}
+
+.list-text {
+    text-decoration: none;
 }
